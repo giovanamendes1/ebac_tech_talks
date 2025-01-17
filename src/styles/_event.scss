@@ -3,19 +3,19 @@
 .event {
     padding: 80px 0;
 
-    &--front-end {
+    &--dress-code {
         background-image: linear-gradient(variables.$blue1, variables.$blue2);
     }
 
-    &--ux-ui {
+    &--comidas {
         background-image: linear-gradient(variables.$blue2, variables.$pink);
     }
 
-    &--data-science {
+    &--playlist {
         background-image: linear-gradient(variables.$pink, variables.$yellow);
     }
 
-    &--back-end {
+    &--directions {
         background-image: linear-gradient(variables.$yellow, variables.$pink);
     }
 
