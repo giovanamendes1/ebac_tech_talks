@@ -4,6 +4,10 @@
 @use 'event';
 @use 'variables';
 
+* {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     color: variables.$TextColor;
     list-style: none;
-    overflow-x: hidden;
+    
 }
 
 .container {
